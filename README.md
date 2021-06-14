@@ -5,4 +5,5 @@ Mi aporte 0
 Buen trabajo en Equipo
 Buen Trabajo 
 Prototipo de un sistema de Vuelos 
+"ahora mismo dividimos la rama para coordinar los errores de la aplicaciòn"
 
