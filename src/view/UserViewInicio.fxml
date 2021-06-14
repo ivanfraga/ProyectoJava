@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="560.0" prefWidth="860.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="viewController.UserViewInicioController">
+   <children>
+      <HBox layoutX="10.0" layoutY="16.0" prefHeight="468.0" prefWidth="780.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
+         <children>
+            <VBox alignment="TOP_CENTER" prefHeight="540.0" prefWidth="80.0" spacing="15.0" style="-fx-background-color: royalblue;" HBox.hgrow="ALWAYS">
+               <children>
+                  <VBox alignment="CENTER" prefHeight="181.0" prefWidth="173.0">
+                     <children>
+                        <ImageView fitHeight="150.0" fitWidth="196.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/loginUser.png" />
+                           </image>
+                        </ImageView>
+                        <Label alignment="CENTER" contentDisplay="TOP" prefHeight="175.0" prefWidth="202.0" text="Usuario" VBox.vgrow="ALWAYS">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+                  <Button fx:id="UserBtnInicio" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#UserBtnInicioA" prefHeight="35.0" prefWidth="170.0" style="-fx-background-color: navy; -fx-text-fill: white;" text="Inicio" textAlignment="RIGHT">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <graphic>
+                        <ImageView fitHeight="25.0" fitWidth="29.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/casa1.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <VBox.margin>
+                        <Insets top="-5.0" />
+                     </VBox.margin>
+                  </Button>
+                  <Button fx:id="UserBtnAgendar" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#UserBtnAgendarA" prefHeight="35.0" prefWidth="170.0" style="-fx-background-color: navy; -fx-text-fill: white;" text="Agendar Vuelos" VBox.vgrow="ALWAYS">
+                     <graphic>
+                        <ImageView fitHeight="25.0" fitWidth="29.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/avion.png" />
+                           </image></ImageView>
+                     </graphic>
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button fx:id="UserBtnReporte" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#UserBtnReporteA" prefHeight="35.0" prefWidth="170.0" style="-fx-background-color: navy; -fx-text-fill: white;" text="Reporte y Registro">
+                     <graphic>
+                        <ImageView fitHeight="25.0" fitWidth="29.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/reporte.png" />
+                           </image></ImageView>
+                     </graphic>
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button fx:id="UserBtnSalir" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#UserBtnSalirA" prefHeight="35.0" prefWidth="170.0" style="-fx-background-color: navy; -fx-text-fill: white;" text="Salir">
+                     <graphic>
+                        <ImageView fitHeight="25.0" fitWidth="29.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/puerta1.png" />
+                           </image>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor></ImageView>
+                     </graphic>
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+               </children>
+            </VBox>
+            <Separator orientation="VERTICAL" prefHeight="200.0" style="-fx-background-color: #303e37;" />
+            <VBox prefHeight="540.0" prefWidth="638.0" HBox.hgrow="ALWAYS">
+               <children>
+                  <VBox alignment="CENTER" prefHeight="155.0" prefWidth="574.0" style="-fx-background-color: #30373e;" VBox.vgrow="ALWAYS">
+                     <children>
+                        <Label alignment="BASELINE_RIGHT" style="-fx-text-fill: white;" text="Inicio">
+                           <font>
+                              <Font size="28.0" />
+                           </font>
+                           <graphic>
+                              <ImageView fitHeight="151.0" fitWidth="240.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../images/inicio.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Label>
+                     </children>
+                  </VBox>
+                  <HBox prefHeight="423.0" prefWidth="588.0" VBox.vgrow="ALWAYS">
+                     <children>
+                        <VBox alignment="TOP_CENTER" prefHeight="404.0" prefWidth="311.0" spacing="4.0" style="-fx-background-color: #d3d3d3;" HBox.hgrow="ALWAYS">
+                           <children>
+                              <Label alignment="TOP_CENTER" prefHeight="44.0" prefWidth="209.0" style="-fx-text-fill: black;" text="Usuario" textFill="#f50000" textOverrun="CLIP" wrapText="true">
+                                 <VBox.margin>
+                                    <Insets top="28.0" />
+                                 </VBox.margin>
+                                 <font>
+                                    <Font name="System Bold" size="25.0" />
+                                 </font>
+                              </Label>
+                              <HBox alignment="CENTER" prefHeight="273.0" prefWidth="311.0" spacing="4.0" VBox.vgrow="ALWAYS">
+                                 <children>
+                                    <VBox prefHeight="268.0" prefWidth="26.0" HBox.hgrow="ALWAYS" />
+                                    <Separator orientation="VERTICAL" prefHeight="200.0" />
+                                    <VBox alignment="CENTER" prefHeight="269.0" prefWidth="240.0" spacing="30.0" HBox.hgrow="ALWAYS">
+                                       <children>
+                                          <TextField fx:id="txtNombreInicio" editable="false" promptText="Nombre">
+                                             <cursor>
+                                                <Cursor fx:constant="DEFAULT" />
+                                             </cursor></TextField>
+                                          <TextField fx:id="txtContraseñaInicio" editable="false" promptText="Password">
+                                             <cursor>
+                                                <Cursor fx:constant="DEFAULT" />
+                                             </cursor></TextField>
+                                       </children>
+                                    </VBox>
+                                    <Separator orientation="VERTICAL" prefHeight="200.0" />
+                                    <VBox prefHeight="264.0" prefWidth="25.0" spacing="10.0" HBox.hgrow="ALWAYS" />
+                                 </children>
+                              </HBox>
+                              <VBox prefHeight="6.0" prefWidth="311.0" />
+                           </children>
+                        </VBox>
+                        <VBox alignment="CENTER" prefHeight="404.0" prefWidth="339.0" style="-fx-background-color: #303e37;" HBox.hgrow="ALWAYS">
+                           <children>
+                              <ImageView fitHeight="293.0" fitWidth="345.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../images/loginUser1.png" />
+                                 </image>
+                              </ImageView>
+                              <Label alignment="CENTER" contentDisplay="TOP" style="-fx-text-fill: black;" text="Usuario">
+                                 <font>
+                                    <Font name="System Bold" size="25.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets top="30.0" />
+                                 </VBox.margin>
+                              </Label>
+                           </children>
+                        </VBox>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>
