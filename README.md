@@ -15,6 +15,7 @@ Tambien se trabajo con una base de datos
 Los usuarios tipo administrados tienen mas permisos que usuaros comunes
 Los usuarios comunes solo pueden registrar un vuelo
 Los usuarios administradores agregan a los usuarios antes de que registren los vuelos, a su vez puedeneliminarlos de su base de datos.
+Las mejoras continuas auydan a un mejor desempeño
 
 ##### Gracias por su atención.
 
