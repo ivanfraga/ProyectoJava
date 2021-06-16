@@ -9,3 +9,4 @@ Prototipo de un sistema de Vuelos
 #El problema no se validan los datos del usuario
 #Tambien no se puede recuperar las contraseñas de usuario
 El trabajo es muy bueno si se termine todo
+Algunos Campos del sistema no funciona a lo esperado
