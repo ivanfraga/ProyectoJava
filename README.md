@@ -31,7 +31,7 @@ Los usuarios administradores agregan a los usuarios antes de que registren los v
 
 
 
-
+...
 ```python
 def view(a)
    print("La bestia ha despertado")
