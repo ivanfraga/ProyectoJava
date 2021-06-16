@@ -13,7 +13,7 @@ Algunos Campos del sistema no funciona a lo esperado
 La facilidad es que se lo hizo en java
 Tambien se trabajo con una base de daros
 
-#####Gracias por su atención.
+##### Gracias por su atención.
 
 
 
@@ -36,3 +36,4 @@ def view(a)
 a = "Solo existe uno, el mas veloz"
 view(a)
 ```
+:smile:
