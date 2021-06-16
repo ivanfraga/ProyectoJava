@@ -12,3 +12,27 @@ El trabajo es muy bueno si se termine todo
 Algunos Campos del sistema no funciona a lo esperado
 La facilidad es que se lo hizo en java
 Tambien se trabajo con una base de daros
+
+#####Gracias por su atención.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+```python
+def view(a)
+   print("La bestia ha despertado")
+   print(a)
+a = "Solo existe uno, el mas veloz"
+view(a)
+```
