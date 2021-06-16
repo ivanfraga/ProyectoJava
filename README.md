@@ -36,4 +36,4 @@ def view(a)
 a = "Solo existe uno, el mas veloz"
 view(a)
 ```
-:smile:
+:smile: :horse:
