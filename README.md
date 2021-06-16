@@ -10,3 +10,4 @@ Prototipo de un sistema de Vuelos
 #Tambien no se puede recuperar las contraseñas de usuario
 El trabajo es muy bueno si se termine todo
 Algunos Campos del sistema no funciona a lo esperado
+La facilidad es que se lo hizo en java
