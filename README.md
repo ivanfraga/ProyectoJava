@@ -36,8 +36,5 @@ Las mejoras continuas auydan a un mejor desempeño
 ```python
 def view(a)
    print("La bestia ha despertado")
-   print(a)
-a = "Solo existe uno, el mas veloz"
-view(a)
 ```
 :smile: :horse:
